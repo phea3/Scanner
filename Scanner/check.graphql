@@ -1,0 +1,7 @@
+
+mutation CreateTeacherAttendance($teacherCardId: ID, $newData: TeacherAnntendanceInput) {
+  createTeacherAttendance(teacherCardId: $teacherCardId, newData: $newData) {
+    success
+    message
+  }
+}

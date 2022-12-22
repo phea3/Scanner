@@ -1,0 +1,7 @@
+
+mutation QrCodeCheckAttendance($idCard: String!) {
+    qrCodeCheckAttendance(IdCard: $idCard) {
+        message
+        status
+    }
+}
